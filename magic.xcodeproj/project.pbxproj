@@ -12,6 +12,8 @@
 		658046F820A9272E004C9E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658046F620A9272E004C9E6E /* Main.storyboard */; };
 		658046FA20A92730004C9E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658046F920A92730004C9E6E /* Assets.xcassets */; };
 		658046FD20A92730004C9E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658046FB20A92730004C9E6E /* LaunchScreen.storyboard */; };
+		65FBC36220AA8D0A0092F595 /* PickCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FBC36120AA8D0A0092F595 /* PickCardViewController.swift */; };
+		65FBC36420AAC03B0092F595 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FBC36320AAC03B0092F595 /* bell.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		658046F920A92730004C9E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		658046FC20A92730004C9E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658046FE20A92730004C9E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FBC36120AA8D0A0092F595 /* PickCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCardViewController.swift; sourceTree = "<group>"; };
+		65FBC36320AAC03B0092F595 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		658046F120A9272E004C9E6E /* magic */ = {
 			isa = PBXGroup;
 			children = (
+				65FBC36320AAC03B0092F595 /* bell.mp3 */,
 				658046F220A9272E004C9E6E /* AppDelegate.swift */,
+				65FBC36120AA8D0A0092F595 /* PickCardViewController.swift */,
 				658046F420A9272E004C9E6E /* ViewController.swift */,
 				658046F620A9272E004C9E6E /* Main.storyboard */,
 				658046F920A92730004C9E6E /* Assets.xcassets */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				658046FD20A92730004C9E6E /* LaunchScreen.storyboard in Resources */,
+				65FBC36420AAC03B0092F595 /* bell.mp3 in Resources */,
 				658046FA20A92730004C9E6E /* Assets.xcassets in Resources */,
 				658046F820A9272E004C9E6E /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			files = (
 				658046F520A9272E004C9E6E /* ViewController.swift in Sources */,
 				658046F320A9272E004C9E6E /* AppDelegate.swift in Sources */,
+				65FBC36220AA8D0A0092F595 /* PickCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
